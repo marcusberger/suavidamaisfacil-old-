@@ -33,7 +33,7 @@
   <div id="sidebarFixo">
     <div class="div-logo">
       <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
-      <p class="sidebar-text" id="descricao"
+      <p class="sidebar-text" id="descricao">
         <b>
           <a href="ebooks/25-apps-que-vao-mudar-a-sua-vida.pdf" download="25-apps-que-vao-mudar-a-sua-vida.pdf">Clique aqui</a> para baixar o seu e-book grátis
         </b>
