@@ -49,7 +49,7 @@
           <span class="sr-only"></span> Endereço de e-mail inválido.
         </div>
         <div class="form-group">
-          <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome" />
+          <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome completo" />
         </div>
         <div class="form-group">
           <input type="text" id="email" name="email" class="form-control" placeholder="e-mail" />
