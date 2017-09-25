@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>Vida boa</title>
+  <title>Sua vida mais fácil</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/sidebar.css">
