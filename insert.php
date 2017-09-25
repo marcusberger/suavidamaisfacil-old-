@@ -25,5 +25,5 @@ $email = $_POST["email"];
  mysqli_close($strcon);
  echo "Cadastrado com sucesso!";
 
- header("location: index.php");
+ header("location: index-download.php");
  ?>
