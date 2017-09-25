@@ -1,6 +1,6 @@
 //Valida se o campo está vazio
 function validarCampoVazio(id, alert) {
-  if ($(id).val().length == 0) {
+  if ($(id).val().length <= 2) {
     $(id).addClass("borda-vermelha");
     $(alert).show();
     return false;
