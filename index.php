@@ -37,7 +37,9 @@
         <b>Baixe o nosso e-book grátis com dicas surpreendentes.</b>
       </p>
 
-      <form id="form-side-bar" method="get" action="ebooks/25-apps-que-vao-mudar-a-sua-vida.pdf">
+      <!-- Incluir aqui o PHP, cadastrar nome e e-mail-->
+      <form id="form-side-bar" method="POST" action="insert.php">
+        <input type="hidden" name="id_leads" value="" />
         <div class="alert alert-danger" role="alert"  id="alert-obrigatorio" hidden="true">
           <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
           <span class="sr-only"></span> Preencha todos os campos.
@@ -47,15 +49,14 @@
           <span class="sr-only"></span> Endereço de e-mail inválido.
         </div>
         <div class="form-group">
-          <input type="text" id="nome" class="form-control" placeholder="Nome">
+          <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome" />
         </div>
         <div class="form-group">
-          <input type="text" id="email" class="form-control" placeholder="e-mail">
+          <input type="text" id="email" name="email" class="form-control" placeholder="e-mail" />
         </div>
         <div class="text-center">
           <button type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
         </div>
-        <input id="ebook" type="hidden" value="ebooks/3-apps-que-vao-mudar-a-sua-vida-para-melhor.pdf">
       </form>
 
     </div>
