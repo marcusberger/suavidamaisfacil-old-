@@ -14,6 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="/favicon.ico" type="img/favicon.ico">
 
+  <!-- facebook commentários-->
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=245558825499694";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
   <!-- facebook -->
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
@@ -86,6 +95,9 @@
           <div class="fb-like" data-href="https://www.facebook.com/suavidamaisfacil/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
         </figcaption>
       </figure>
+      <div class="col-auto button-footer facebook-div-comentario">
+        <div class="fb-comments facebook-comentarios" data-href="https://www.facebook.com/suavidamaisfacil/25-bares-e-restaurantes-pet-friendly.html" data-mobile="true" data-width="100%" data-colorscheme="dark" data-numposts="10"></div>
+      </div>
     </section>
   </div>
 </body>

@@ -171,3 +171,9 @@
 .facebook-comentario {
   margin-top: 30px;
 }
+
+.facebook-div-comentario {
+  max-width: 630px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
