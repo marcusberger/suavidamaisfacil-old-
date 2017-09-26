@@ -14,6 +14,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="/favicon.ico" type="img/favicon.ico">
 
+  <!-- facebook -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
   <!--Analytics-->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -59,15 +69,6 @@
         </div>
       </form>
     </div>
-
-      <!-- <table>
-        <tr id="logo-facebook">
-          <td><img src="img/icon-facebook.png" class="img-responsive"></td>
-          <td>Curta no facebook</td>
-        </tr>
-      </table> -->
-
-    </div>
   </div>
 
   <div class="div-logo div-mobile" >
@@ -75,7 +76,7 @@
       <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black_Mobile.png" class="img-responsive">
     </a>
   </div>
-  
+
   <div id="conteudo">
     <section class="container" id="post">
       <figure id="post-container" class="jumbotron post-responsive" >
@@ -100,6 +101,7 @@
             Deixe seu nome e email para receber as 5 regras de OURO do Vendedor Consultivo
             <br><br>
           </p>
+          <div class="fb-like" data-href="https://www.facebook.com/suavidamaisfacil/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
         </figcaption>
       </figure>
 

@@ -16,6 +16,16 @@
   <script src="js/generico.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- facebook -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
   <!--Analytics-->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -60,6 +70,11 @@
           <button type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
         </div>
       </form>
+      <div class="text-center">
+        <br>
+        <br>
+        <div class="fb-like facebook-side-bar" data-href="https://www.facebook.com/suavidamaisfacil/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+      </div>
     </div>
   </div>
 
