@@ -284,7 +284,7 @@
 
     <!-- modal -->
     <div class="modal fade" id="modalCadastro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <form id="form-cadastro-modal" action="insert-modal.php" >
+      <form id="form-cadastro-modal" method="POST" action="insert-modal.php" >
         <div class="vertical-alignment-helper">
           <div class="modal-dialog vertical-align-center">
             <div class="modal-content">
