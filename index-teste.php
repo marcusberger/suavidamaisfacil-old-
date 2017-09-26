@@ -299,7 +299,7 @@
                   <input type="text" class="form-control" id="nome-modal" name="nome-modal" maxlength="254" placeholder="Digite o nome completo">
                 </div>
                 <div class="form-group input-group input-grande">
-                  <input type="text" class="form-control" id="email-modal" name="nome-modal" maxlength="254" placeholder="Digite o e-mail">
+                  <input type="text" class="form-control" id="email-modal" name="email-modal" maxlength="254" placeholder="Digite o e-mail">
                 </div>
                 <div class="alert alert-danger" role="alert"  id="alert-obrigatorio-modal" hidden="true">
                   <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
