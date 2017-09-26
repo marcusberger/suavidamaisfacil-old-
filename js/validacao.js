@@ -15,9 +15,9 @@ $(document).ready(function() {
     if (temEmail && temNome) {
       isValid = true;
       isValid = validaEmail("#email", "#alert-email-invalido");
-      if (isValid) {
-        isValid = validaNome("#nome", "#alert-nome-completo");
-      }
+      // if (isValid) {
+      //   isValid = validaNome("#nome", "#alert-nome-completo");
+      // }
     }
     return isValid
   })
@@ -37,9 +37,9 @@ $(document).ready(function() {
     if (temEmail && temNome) {
       isValid = true;
       isValid = validaEmail("#email-footer", "#alert-email-invalido-footer");
-      if (isValid) {
-        isValid = validaNome("#nome-footer", "#alert-nome-completo-footer");
-      }
+      // if (isValid) {
+      //   isValid = validaNome("#nome-footer", "#alert-nome-completo-footer");
+      // }
     }
     return isValid
   })
