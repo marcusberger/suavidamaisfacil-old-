@@ -62,6 +62,10 @@
     </div>
   </div>
 
+  <div class="div-logo div-mobile" >
+    <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black_Mobile.png" class="img-responsive">
+  </div>
+
   <!-- post 1 -->
   <a class="conteudo-link" href="3-apps-que-vao-mudar-a-sua-vida-para-melhor.html">
     <div id="conteudo">

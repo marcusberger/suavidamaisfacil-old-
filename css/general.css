@@ -27,6 +27,17 @@
   #post{
     width: 80%;
   }
+
+  .div-mobile {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+}
+
+.div-mobile {
+  margin: auto;
+  width: 70%;
 }
 
 .conteudo-link {
