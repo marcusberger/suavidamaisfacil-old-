@@ -15,7 +15,8 @@
   <script src="js/validacao.js"></script>
   <script src="js/generico.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="description" content="Life-hacking dicas blog">
+  
   <!--Analytics-->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

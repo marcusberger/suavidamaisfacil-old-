@@ -15,6 +15,8 @@
   <script src="js/validacao.js"></script>
   <script src="js/generico.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Life-hacking dicas blog">
+  <meta content="Sua vida mais fácil">
 
   <!-- facebook commentários-->
   <script>(function(d, s, id) {
