@@ -74,7 +74,7 @@
           <img id="img" class="img-responsive" src="img/3-apps-que-vao-mudar-a-sua-vida.jpeg">
           <div class="separador">
           </div>
-          <figcaption class='caption' id="caption">
+          <figcaption class="caption" id="caption">
             <h4 data-toggle="collapse" data-target="#post1">3 Apps que vão mudar a sua vida!</h4>
             <p id="post-body" >Chega de tentar fingir que o celular não é uma extensão do nosso corpo.
             Ao invés de lutar contra isso é hora de aproveitar o que eles...
