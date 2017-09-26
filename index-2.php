@@ -247,7 +247,7 @@
         <h3>Gostou das nossas dicas?</h1>
         <h5>Baixe agora um e-book com muito mais novidades!</h1>
         </div>
-        <form id="form-footer" method="POST" action="insert.php">
+        <form id="form-footer" method="POST" action="insert-footer.php">
           <input type="hidden" name="id_leads" value="" />
           <div class="form-row align-items-center">
             <div class="alert alert-danger alert-footer" role="alert"  id="alert-obrigatorio-footer" hidden="true">
@@ -264,11 +264,11 @@
             </div>
             <div class="col-sm-5 input-footer">
               <label class="sr-only" for="inlineFormInputName">Name</label>
-              <input type="text" class="form-control mb-2 mb-sm-0" id="nome-footer" name="nome" placeholder="Nome completo">
+              <input type="text" class="form-control mb-2 mb-sm-0" id="nome-footer" name="nome-footer" placeholder="Nome completo">
             </div>
             <div class="col-sm-5 input-footer">
               <label class="sr-only" for="inlineFormInputName">Name</label>
-              <input type="text" class="form-control mb-2 mb-sm-0" id="email-footer" name="email" placeholder="e-mail">
+              <input type="text" class="form-control mb-2 mb-sm-0" id="email-footer" name="email-footer" placeholder="e-mail">
             </div>
             <div class="col-auto button-footer">
               <button type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
