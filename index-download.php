@@ -16,7 +16,7 @@
   <script src="js/generico.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Life-hacking dicas blog">
-  
+
   <!--Analytics-->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -44,11 +44,22 @@
     </div>
   </div>
 
+  <div class="div-logo div-mobile" >
+    <a href="index.php">
+      <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black_Mobile.png" class="img-responsive">
+    </a>
+  </div>
+
   <!-- post 1 -->
   <a class="conteudo-link" href="3-apps-que-vao-mudar-a-sua-vida-para-melhor.html">
     <div id="conteudo">
       <section class="container" id="post">
         <figure id="post-container" class="jumbotron post-responsive" >
+          <div class="text-center download-top">
+            <a href="ebooks/corretor-regra-de-ouro.png" download="corretor-regra-de-ouro.png">
+              <button  type="submit" class="btn btn-primary">Download</button>
+            </a>
+          </div>
           <img id="img" class="img-responsive" src="img/3-apps-que-vao-mudar-a-sua-vida.jpeg">
           <div class="separador">
           </div>
