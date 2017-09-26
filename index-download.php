@@ -33,7 +33,7 @@
 <body>
   <div id="sidebarFixo">
     <div class="div-logo">
-      <a href="index.php">
+      <a href="index-2.php">
         <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
       </a>
       <div class="text-center download-top">
@@ -45,7 +45,7 @@
   </div>
 
   <div class="div-logo div-mobile" >
-    <a href="index.php">
+    <a href="index-2.php">
       <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black_Mobile.png" class="img-responsive">
     </a>
   </div>
@@ -56,7 +56,7 @@
       <section class="container" id="post">
         <figure id="post-container" class="jumbotron post-responsive" >
           <div class="text-center download-top">
-            <a href="ebooks/corretor-regra-de-ouro.png" download="corretor-regra-de-ouro.png">
+            <a href="ebooks/25-apps-que-vao-mudar-a-sua-vida.pdf" download="25-apps-que-vao-mudar-a-sua-vida.pdf">
               <button  type="submit" class="btn btn-primary">Download</button>
             </a>
           </div>
