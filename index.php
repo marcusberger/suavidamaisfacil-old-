@@ -240,7 +240,7 @@
   <div id="conteudo">
     <section class="container" id="post">
       <div class="col-auto button-footer facebook-div-comentario">
-        <div class="fb-comments facebook-comentarios" data-href="https://www.facebook.com/suavidamaisfacil/index.html" data-mobile="true" data-width="100%" data-colorscheme="dark" data-numposts="10"></div>
+        <div class="fb-comments facebook-comentarios" data-href="https://www.facebook.com/suavidamaisfacil/index.php" data-mobile="true" data-width="100%" data-colorscheme="dark" data-numposts="10"></div>
       </div>
     </section>
   </div>
