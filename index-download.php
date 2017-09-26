@@ -32,7 +32,9 @@
 <body>
   <div id="sidebarFixo">
     <div class="div-logo">
-      <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
+      <a href="index.php">
+        <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
+      </a>
       <div class="text-center download-top">
         <a href="ebooks/25-apps-que-vao-mudar-a-sua-vida.pdf" download="25-apps-que-vao-mudar-a-sua-vida.pdf">
           <button  type="submit" class="btn btn-primary">Download</button>
