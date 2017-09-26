@@ -33,6 +33,13 @@
     clear: both;
     display: none;
   }
+
+  .div-mobile-home {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+
 }
 
 .div-mobile {
