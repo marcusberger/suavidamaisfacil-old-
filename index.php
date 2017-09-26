@@ -60,11 +60,10 @@
           <button type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
         </div>
       </form>
-
     </div>
   </div>
 
-  <div class="div-logo div-mobile" >
+  <div class="div-logo div-mobile-home" >
     <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black_Mobile.png" class="img-responsive">
   </div>
 
