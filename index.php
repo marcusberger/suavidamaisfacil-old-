@@ -102,7 +102,7 @@
           <div class="separador">
           </div>
           <figcaption class="caption" id="caption">
-            <h4 data-toggle="collapse" data-target="#post1">3 Apps que vão mudar a sua vida!</h4>
+            <h3 data-toggle="collapse" data-target="#post1">3 Apps que vão mudar a sua vida!</h3>
             <p id="post-body" >Chega de tentar fingir que o celular não é uma extensão do nosso corpo.
             Ao invés de lutar contra isso é hora de aproveitar o que eles...
             </p>
@@ -121,7 +121,7 @@
           <div class="separador">
           </div>
           <figcaption class='caption' id="caption">
-            <h4 data-toggle="collapse" data-target="#post1">15 verdades e mitos sobre a bateria do seu celular</h4>
+            <h3 data-toggle="collapse" data-target="#post1">15 verdades e mitos sobre a bateria do seu celular</h3>
             <p id="post-body" >
               Hoje em dia a maioria das pessoas são companheiras inseparáveis de seus celulares,
               mas você sabe tudo mesmo sobre seu fiel companheiro?
@@ -142,7 +142,7 @@
           <div class="separador">
           </div>
           <figcaption class='caption' id="caption">
-            <h4 data-toggle="collapse" data-target="#post1">25 bares e restaurantes pet friendly</h4>
+            <h3 data-toggle="collapse" data-target="#post1">25 bares e restaurantes pet friendly</h3>
             <p id="post-body" >
               Cachorros têm apenas um defeito: vivem pouco. Vamos aproveitar ao máximo esse tempo e ficar grudado neles!
               E que atire o primeiro biscrok quem tem um bichinho e nunca ficou com o coração na mão ao ver a carinha
@@ -163,7 +163,7 @@
             <div class="separador">
             </div>
             <figcaption class='caption' id="caption">
-              <h4 data-toggle="collapse" data-target="#post1">A check-list perfeita para fazer uma road trip sem stress</h4>
+              <h3 data-toggle="collapse" data-target="#post1">A check-list perfeita para fazer uma road trip sem stress</h3>
               <p id="post-body" >
                 E aquele dia tão desejado ta chegando? Você tem mesmo certeza que ta tudo certo?
                 Ainda não sabe do que eu estou falando, não é?
@@ -185,7 +185,7 @@
             <div class="separador">
             </div>
             <figcaption class='caption' id="caption">
-              <h4 data-toggle="collapse" data-target="#post1">Como economizar tempo e dinheiro com o seu automovel</h4>
+              <h3 data-toggle="collapse" data-target="#post1">Como economizar tempo e dinheiro com o seu automovel</h3>
               <p id="post-body" >
                 Os tempos estão mudando e muita coisa que antes era fato, hoje não passa de uma simples lembrança,
                 isso é um fato! Mas uma coisa que sem dúvida ainda é verdade, é que o brasileiro não deixou de ser apaixonado por carro!
@@ -206,10 +206,30 @@
           <div class="separador">
           </div>
           <figcaption class='caption' id="caption">
-            <h4 data-toggle="collapse" data-target="#post1">Corretor: como vender melhor</h4>
+            <h3 data-toggle="collapse" data-target="#post1">Corretor: como vender melhor</h3>
             <p id="post-body" >
               Foi-se o tempo onde uma carteira de clientes era algo simples de manter. Onde o
               relacionamento entre vendedor e cliente era algo duradouro.
+            </p>
+          </figcaption>
+        </figure>
+      </a>
+    </section>
+  </div>
+
+  <!-- post 7 -->
+  <div id="conteudo">
+    <section class="container" id="post">
+      <a class="conteudo-link" href="descubra-o-seu-perfil-de-dono-de-cao.html">
+        <figure id="post-container" class="jumbotron post-responsive" >
+          <img id="img" class="img-responsive" src="img/descubra-o-seu-perfil-de-dono-de-cao.jpg">
+          <div class="separador">
+          </div>
+          <figcaption class='caption' id="caption">
+            <h3 data-toggle="collapse" data-target="#post1">Quiz - Descubra o seu perfil de dono de cão</h3>
+            <p id="post-body" >
+              Em algum momento, nós vamos pensar sobre a personalidade ou as características que o nosso pet tem,
+              seja ele bagunceiro, teimoso, chato, brincalhão ou preguiçoso. Além disso...
             </p>
           </figcaption>
         </figure>

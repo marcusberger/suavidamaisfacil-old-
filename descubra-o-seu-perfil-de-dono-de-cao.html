@@ -12,7 +12,7 @@
   <script src="js/generico.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="3 apps que vão mudar a sua vida para melhor">
+  <meta name="description" content="descubra o seu perfil de dono de cão">
   <link rel="icon" href="/favicon.ico" type="img/favicon.ico">
 
   <!-- facebook commentários-->
@@ -53,11 +53,32 @@
       <a href="index.php">
         <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
       </a>
-      <div class="text-center download-top">
-        <a href="ebooks/25-apps-que-vao-mudar-a-sua-vida.pdf" download="25-apps-que-vao-mudar-a-sua-vida.pdf">
-          <button  type="submit" class="btn btn-primary">Download</button>
-        </a>
-      </div>
+      <p class="sidebar-text" id="descricao" >Facilite ainda mais a sua vida!<br>
+        <b>Baixe o nosso e-book grátis com dicas surpreendentes.</b>
+      </p>
+
+      <!-- Incluir aqui o PHP, cadastrar nome e e-mail-->
+      <form id="form-side-bar" method="POST" action="insert.php">
+        <input type="hidden" name="id_leads" value="" />
+        <div class="alert alert-danger" role="alert"  id="alert-obrigatorio" hidden="true">
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <span class="sr-only"></span> Preencha todos os campos.
+        </div>
+        <div class="alert alert-danger" role="alert"  id="alert-email-invalido" hidden="true">
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <span class="sr-only"></span> Endereço de e-mail inválido.
+        </div>
+        <div class="form-group">
+          <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome completo">
+        </div>
+        <div class="form-group">
+          <input type="text" id="email" name="email" class="form-control" placeholder="e-mail">
+        </div>
+        <div class="text-center">
+          <button  type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
+        </div>
+        <input id="ebook" type="hidden" value="3-apps-que-vao-mudar-a-sua-vida-para-melhor.html">
+      </form>
     </div>
   </div>
 
@@ -68,37 +89,32 @@
   </div>
 
   <div id="conteudo">
-    <div class="text-center download-top">
-      <a href="ebooks/25-apps-que-vao-mudar-a-sua-vida.pdf" download="25-apps-que-vao-mudar-a-sua-vida.pdf">
-        <button  type="submit" class="btn btn-primary">Download</button>
-      </a>
-    </div>
-
     <section class="container" id="post">
       <figure id="post-container" class="jumbotron post-responsive" >
-        <img id="img" class="img-responsive" src="img/3-apps-que-vao-mudar-a-sua-vida.jpeg">
+        <img id="img" class="img-responsive" src="img/descubra-o-seu-perfil-de-dono-de-cao.jpg">
         <div class="separador"></div>
         <figcaption class='caption' id="caption">
-          <h3 data-toggle="collapse" data-target="#post1">3 Apps que vão mudar a sua vida!</h3>
+          <h3 data-toggle="collapse" data-target="#post1">Descubra o seu perfil de dono de cão!</h4>
           <br>
           <p id="post-body" >
-            Chega de tentar fingir que o celular não é uma extensão do nosso corpo.
-            Ao invés de lutar contra isso é hora de aproveitar o que eles têm de melhor: OS APLICATIVOS.
-            <br>
-            A equipe do Sua vida mais fácil adora aplicativos e rankeamos os nossos três apps favoritos para ajudar vocês:
-            <br><br>
-            1. Life Hacks <br>
-            2. Sleep Cycle<br>
-            3. Google FIT<br><br>
-            Agora, era tanto aplicativo animal que fizemos um guia com 25 APPs que vão MUDAR totalmente a forma como você vive a sua vida. Sério, eles mudaram a nossa!
-            <br>
+            Em algum momento, nós vamos pensar sobre a personalidade ou as características que o nosso pet tem,
+            seja ele bagunceiro, teimoso, chato, brincalhão ou preguiçoso. Além disso, muito se diz sobre o
+            mesmo ser o espelho do dono. Será que isso é verdade? As suas características batem com as do seu cão?
+            Não sabe? Então vem descobrir agora com o nosso Quiz!
+            <div class="text-center download-top">
+              <a href="https://goo.gl/HsDfsB" target="_blank">
+                <button class="btn btn-success">Iniciar Quiz</button>
+              </a>
+            </div>
             <br>
           </p>
           <div class="fb-like" data-href="https://www.facebook.com/suavidamaisfacil/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
         </figcaption>
       </figure>
-      <div class="col-auto button-footer facebook-div-comentario">
-        <div class="fb-comments facebook-comentarios" data-href="https://www.facebook.com/suavidamaisfacil/3-apps-que-vao-mudar-a-sua-vida-para-melhor.html" data-mobile="true" data-width="100%" data-colorscheme="dark" data-numposts="10"></div>
+      <div class="form-row footer">
+        <div class="col-auto button-footer facebook-div-comentario">
+          <div class="fb-comments facebook-comentarios" data-href="https://www.facebook.com/suavidamaisfacil/descubra-o-seu-perfil-de-dono-de-cao.html" data-mobile="true" data-width="100%" data-colorscheme="dark" data-numposts="10"></div>
+        </div>
       </div>
     </section>
   </div>
