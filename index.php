@@ -247,7 +247,7 @@
         <h3>Gostou das nossas dicas?</h1>
         <h5>Baixe agora um e-book com muito mais novidades!</h1>
         </div>
-        <form id="form-footer" method="POST" action="como-economizar-tempo-e-dinheiro-com-seu-automovel.php">
+        <form id="form-footer" method="POST" action="insert.php">
           <input type="hidden" name="id_leads" value="" />
           <div class="form-row align-items-center">
             <div class="alert alert-danger alert-footer" role="alert"  id="alert-obrigatorio-footer" hidden="true">
