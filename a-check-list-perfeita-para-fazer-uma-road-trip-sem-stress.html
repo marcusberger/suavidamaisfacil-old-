@@ -57,7 +57,6 @@
         <b>Baixe o nosso e-book grátis com dicas surpreendentes.</b>
       </p>
 
-      <!-- Incluir aqui o PHP, cadastrar nome e e-mail-->
       <form id="form-side-bar" method="POST" action="insert.php">
         <input type="hidden" name="id_leads" value="" />
         <div class="alert alert-danger" role="alert"  id="alert-obrigatorio" hidden="true">
@@ -67,6 +66,10 @@
         <div class="alert alert-danger" role="alert"  id="alert-email-invalido" hidden="true">
           <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
           <span class="sr-only"></span> Endereço de e-mail inválido.
+        </div>
+        <div class="alert alert-danger" role="alert"  id="alert-nome-completo" hidden="true">
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <span class="sr-only"></span> Favor informar nome completo válido.
         </div>
         <div class="form-group">
           <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome completo">
@@ -135,7 +138,6 @@
         </figcaption>
       </figure>
 
-      <!-- Incluir aqui o PHP, cadastrar nome e e-mail-->
       <div class="form-row footer">
         <div class="footer-text">
           <h3>Gostou das nossas dicas?</h1>
@@ -151,6 +153,10 @@
             <div class="alert alert-danger alert-footer" role="alert"  id="alert-email-invalido-footer" hidden="true">
               <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
               <span class="sr-only"></span> Endereço de e-mail inválido.
+            </div>
+            <div class="alert alert-danger" role="alert"  id="alert-nome-completo-footer" hidden="true">
+              <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+              <span class="sr-only"></span> Favor informar nome completo válido.
             </div>
             <div class="col-sm-5 input-footer">
               <label class="sr-only" for="inlineFormInputName">Name</label>

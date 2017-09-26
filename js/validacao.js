@@ -15,6 +15,9 @@ $(document).ready(function() {
     if (temEmail && temNome) {
       isValid = true;
       isValid = validaEmail("#email", "#alert-email-invalido");
+      if (isValid) {
+        isValid = validaNome("#nome", "#alert-nome-completo");
+      }
     }
     return isValid
   })
@@ -34,6 +37,9 @@ $(document).ready(function() {
     if (temEmail && temNome) {
       isValid = true;
       isValid = validaEmail("#email-footer", "#alert-email-invalido-footer");
+      if (isValid) {
+        isValid = validaNome("#nome-footer", "#alert-nome-completo-footer");
+      }
     }
     return isValid
   })
@@ -59,4 +65,16 @@ $(document).ready(function() {
       }
       return isValid;
   }
+
+  //Valida se é um nome válido
+  function validaNome(id, alert) {
+      var pattern = /^([a-zA-Z]{2,}\s[a-zA-z]{1,}'?-?[a-zA-Z]{2,}\s?([a-zA-Z]{1,})?)$/u;
+      var isValid = pattern.test($(id).val());
+      if (!isValid) {
+        $(id).addClass("borda-vermelha");
+        $(alert).show();
+      }
+      return isValid;
+  }
+
 })
