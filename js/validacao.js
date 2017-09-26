@@ -44,6 +44,28 @@ $(document).ready(function() {
     return isValid
   })
 
+  $("#form-cadastro-modal").submit(function() {
+    var temNome, temEmail, isValid = false;
+
+    //Restabelece o estado inicial dos elementos da tela
+    $("#nome-modal").removeClass("borda-vermelha");
+    $("#email-modal").removeClass("borda-vermelha");
+    $("#alert-obrigatorio-modal").hide();
+    $("#alert-email-invalido-modal").hide();
+
+    //Valida se os campos e-mail e senha estão em branco
+    temNome = validarCampoVazio("#nome-modal", "#alert-obrigatorio-modal");
+    temEmail = validarCampoVazio("#email-modal", "#alert-obrigatorio-modal");
+    if (temEmail && temNome) {
+      isValid = true;
+      isValid = validaEmail("#email-modal", "#alert-email-invalido-modal");
+      // if (isValid) {
+      //   isValid = validaNome("#nome-footer", "#alert-nome-completo-modal");
+      // }
+    }
+    return isValid
+  })
+
   //Valida se o campo está vazio
   function validarCampoVazio(id, alert) {
     if ($(id).val().length <= 2) {

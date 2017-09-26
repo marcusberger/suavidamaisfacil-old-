@@ -311,6 +311,10 @@
                   <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
                   <span class="sr-only"></span> Endereço de e-mail inválido.
                 </div>
+                <div class="alert alert-danger" role="alert"  id="alert-nome-completo-modal" hidden="true">
+                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                  <span class="sr-only"></span> Favor informar nome completo válido.
+                </div>
               </div>
               <div class="modal-footer">
                 <button id="btn-submit-modal" type="submit" class="btn btn-primary btn-modal-salvar"> Quero meu e-book grátis </button>
