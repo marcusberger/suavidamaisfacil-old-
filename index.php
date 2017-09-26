@@ -32,7 +32,9 @@
 <body>
   <div id="sidebarFixo">
     <div class="div-logo">
-      <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
+      <a href="index.php">
+        <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
+      </a>
       <p class="sidebar-text" id="descricao" >Facilite ainda mais a sua vida!<br>
         <b>Baixe o nosso e-book grátis com dicas surpreendentes.</b>
       </p>
