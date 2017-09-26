@@ -164,8 +164,10 @@
 }
 
 .facebook-side-bar {
-
   margin: auto;
   width: 80%;
+}
 
+.facebook-comentario {
+  margin-top: 30px;
 }
