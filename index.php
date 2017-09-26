@@ -240,42 +240,46 @@
     </section>
   </div>
 
-  <div class="form-row footer">
-    <div class="footer-text">
-      <h3>Gostou das nossas dicas?</h1>
-      <h5>Baixe agora um e-book com muito mais novidades!</h1>
+  <div id="conteudo">
+    <section class="container" id="post">
+      <div class="form-row footer">
+        <div class="footer-text">
+        <h3>Gostou das nossas dicas?</h1>
+        <h5>Baixe agora um e-book com muito mais novidades!</h1>
+        </div>
+        <form id="form-footer" method="POST" action="como-economizar-tempo-e-dinheiro-com-seu-automovel.php">
+          <input type="hidden" name="id_leads" value="" />
+          <div class="form-row align-items-center">
+            <div class="alert alert-danger alert-footer" role="alert"  id="alert-obrigatorio-footer" hidden="true">
+              <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+              <span class="sr-only"></span> Preencha todos os campos.
+            </div>
+            <div class="alert alert-danger alert-footer" role="alert"  id="alert-email-invalido-footer" hidden="true">
+              <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+              <span class="sr-only"></span> Endereço de e-mail inválido.
+            </div>
+            <div class="alert alert-danger" role="alert"  id="alert-nome-completo-footer" hidden="true">
+              <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+              <span class="sr-only"></span> Favor informar nome completo válido.
+            </div>
+            <div class="col-sm-5 input-footer">
+              <label class="sr-only" for="inlineFormInputName">Name</label>
+              <input type="text" class="form-control mb-2 mb-sm-0" id="nome-footer" name="nome" placeholder="Nome completo">
+            </div>
+            <div class="col-sm-5 input-footer">
+              <label class="sr-only" for="inlineFormInputName">Name</label>
+              <input type="text" class="form-control mb-2 mb-sm-0" id="email-footer" name="email" placeholder="e-mail">
+            </div>
+            <div class="col-auto button-footer">
+              <button type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
+            </div>
+            <div class="col-auto button-footer facebook-div-comentario">
+              <div class="fb-comments facebook-comentarios" data-href="https://www.facebook.com/suavidamaisfacil/como-economizar-tempo-e-dinheiro-com-seu-automovel.html" data-mobile="true" data-width="100%" data-colorscheme="dark" data-numposts="10"></div>
+            </div>
+          </div>
+        </form>
+      </section>
     </div>
-    <form id="form-footer" method="POST" action="como-economizar-tempo-e-dinheiro-com-seu-automovel.php">
-      <input type="hidden" name="id_leads" value="" />
-      <div class="form-row align-items-center">
-        <div class="alert alert-danger alert-footer" role="alert"  id="alert-obrigatorio-footer" hidden="true">
-          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-          <span class="sr-only"></span> Preencha todos os campos.
-        </div>
-        <div class="alert alert-danger alert-footer" role="alert"  id="alert-email-invalido-footer" hidden="true">
-          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-          <span class="sr-only"></span> Endereço de e-mail inválido.
-        </div>
-        <div class="alert alert-danger" role="alert"  id="alert-nome-completo-footer" hidden="true">
-          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-          <span class="sr-only"></span> Favor informar nome completo válido.
-        </div>
-        <div class="col-sm-5 input-footer">
-          <label class="sr-only" for="inlineFormInputName">Name</label>
-          <input type="text" class="form-control mb-2 mb-sm-0" id="nome-footer" name="nome" placeholder="Nome completo">
-        </div>
-        <div class="col-sm-5 input-footer">
-          <label class="sr-only" for="inlineFormInputName">Name</label>
-          <input type="text" class="form-control mb-2 mb-sm-0" id="email-footer" name="email" placeholder="e-mail">
-        </div>
-        <div class="col-auto button-footer">
-          <button type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
-        </div>
-        <div class="col-auto button-footer facebook-div-comentario">
-          <div class="fb-comments facebook-comentarios" data-href="https://www.facebook.com/suavidamaisfacil/como-economizar-tempo-e-dinheiro-com-seu-automovel.html" data-mobile="true" data-width="100%" data-colorscheme="dark" data-numposts="10"></div>
-        </div>
-      </div>
-    </form>
   </div>
 
 </body>
