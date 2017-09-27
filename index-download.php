@@ -19,15 +19,15 @@
 
   <!--Analytics-->
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-106963166-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-106963166-1', 'auto');
+    ga('send', 'pageview');
 
-</script>
+  </script>
 
 </head>
 <body>
@@ -66,7 +66,7 @@
           <figcaption class="caption" id="caption">
             <h4 data-toggle="collapse" data-target="#post1">3 Apps que vão mudar a sua vida!</h4>
             <p id="post-body" >Chega de tentar fingir que o celular não é uma extensão do nosso corpo.
-            Ao invés de lutar contra isso é hora de aproveitar o que eles...
+              Ao invés de lutar contra isso é hora de aproveitar o que eles...
             </p>
           </figcaption>
         </figure>
@@ -178,6 +178,47 @@
       </section>
     </div>
   </a>
+
+  <!-- post 6 -->
+  <a class="conteudo-link" href="crm-gestao-de-clientes.html">
+    <div id="conteudo">
+      <section class="container" id="post">
+        <figure id="post-container" class="jumbotron post-responsive" >
+          <img id="img" class="img-responsive" src="img/CRM-Image.jpg">
+          <div class="separador">
+          </div>
+          <figcaption class='caption' id="caption">
+            <h4 data-toggle="collapse" data-target="#post1">CRM: Gestão de Clientes</h4>
+            <p id="post-body" >
+              Já parou para se perguntar “como ganhar mais clientes sem perder os que já tenho”? Essa é
+              uma questão que é abordada desde em reuniões semestrais de grandes multinacionais até em
+              conversas de corredor de pequenas empresas, todo mundo quem mais clientes!
+            </p>
+          </figcaption>
+        </figure>
+      </section>
+    </div>
+  </a>
+
+   <!-- post 8 -->
+  <div id="conteudo">
+    <section class="container" id="post">
+      <a class="conteudo-link" href="crm-gestao-de-clientes.html">
+        <figure id="post-container" class="jumbotron post-responsive" >
+          <img id="img" class="img-responsive" src="img/CRM-Image.jpg">
+          <div class="separador">
+          </div>
+          <figcaption class='caption' id="caption">
+            <h3 data-toggle="collapse" data-target="#post1">Corretor: como vender melhor</h3>
+            <p id="post-body" >
+              Foi-se o tempo onde uma carteira de clientes era algo simples de manter. Onde o
+              relacionamento entre vendedor e cliente era algo duradouro.
+            </p>
+          </figcaption>
+        </figure>
+      </a>
+    </section>
+  </div>
 
 </body>
 </html>

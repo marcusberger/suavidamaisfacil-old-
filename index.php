@@ -241,6 +241,26 @@
     </section>
   </div>
 
+  <!-- post 8 -->
+  <div id="conteudo">
+    <section class="container" id="post">
+      <a class="conteudo-link" href="crm-gestao-de-clientes.html">
+        <figure id="post-container" class="jumbotron post-responsive" >
+          <img id="img" class="img-responsive" src="img/CRM-Image.jpg">
+          <div class="separador">
+          </div>
+          <figcaption class='caption' id="caption">
+            <h3 data-toggle="collapse" data-target="#post1">CRM: Gestão de Clientes</h3>
+            <p id="post-body" >
+              Foi-se o tempo onde uma carteira de clientes era algo simples de manter. Onde o
+              relacionamento entre vendedor e cliente era algo duradouro.
+            </p>
+          </figcaption>
+        </figure>
+      </a>
+    </section>
+  </div>
+
   <div id="conteudo">
     <section class="container" id="post">
       <div class="form-row footer">
