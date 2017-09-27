@@ -12,7 +12,27 @@
   <script src="js/generico.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Como economizar tempo e dinheiro com seu automóvel">
   <link rel="icon" href="/favicon.ico" type="img/favicon.ico">
+
+  <!-- facebook commentários-->
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=245558825499694";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- facebook -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
   <!--Analytics-->
   <script>
@@ -30,27 +50,31 @@
 <body>
   <div id="sidebarFixo">
     <div class="div-logo">
-      <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
-      <p class="sidebar-text" id="descricao" ><br>
-        <b>
-          <a href="ebooks/os-5-melhores-aplicativos-para-gestao-de-gastos-do-seu-carro.pdf" download="os-5-melhores-aplicativos-para-gestao-de-gastos-do-seu-carro.pdf">Clique aqui</a> para baixar o seu e-book grátis
-        </b>
-      </p>
+      <a href="index-2.php">
+        <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
+      </a>
+      <div class="text-center download-top">
+        <a href="ebooks/os-5-melhores-aplicativos-para-gestao-de-gastos-do-seu-carro.pdf" download="os-5-melhores-aplicativos-para-gestao-de-gastos-do-seu-carro.pdf">
+          <button  type="submit" class="btn btn-primary">Download</button>
+        </a>
+      </div>
     </div>
+  </div>
 
-      <!-- <table>
-        <tr id="logo-facebook">
-          <td><img src="img/icon-facebook.png" class="img-responsive"></td>
-          <td>Curta no facebook</td>
-        </tr>
-      </table> -->
-
-    </div>
+  <div class="div-logo div-mobile" >
+    <a href="index-2.php">
+      <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black_Mobile.png" class="img-responsive">
+    </a>
   </div>
 
   <div id="conteudo">
     <section class="container" id="post">
       <figure id="post-container" class="jumbotron post-responsive" >
+        <div class="text-center download-top">
+          <a href="ebooks/os-5-melhores-aplicativos-para-gestao-de-gastos-do-seu-carro.pdf" download="os-5-melhores-aplicativos-para-gestao-de-gastos-do-seu-carro.pdf">
+            <button  type="submit" class="btn btn-primary">Download</button>
+          </a>
+        </div>
         <img id="img" class="img-responsive" src="img/os-5-melhores-aplicativos-para-gestao-de-gastos-do-seu-carro.jpeg">
         <div class="separador"></div>
         <figcaption class='caption' id="caption">
@@ -103,21 +127,12 @@
             <br>
             <br>
           </p>
-          <button id="btnREAD" name="botao"><a href="index.php">Voltar</a></button>
-          <div id="divBtnREAD" style="background-color: #ff6000">
-          </div>
+          <div class="fb-like" data-href="https://www.facebook.com/suavidamaisfacil/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
         </figcaption>
       </figure>
-
-      <!-- Incluir aqui o PHP, cadastrar nome e e-mail-->
-      <div class="form-row footer">
-        <div class="footer-text">
-          <b>
-            <a href="ebooks/os-5-melhores-aplicativos-para-gestao-de-gastos-do-seu-carro.pdf" download="os-5-melhores-aplicativos-para-gestao-de-gastos-do-seu-carro.pdf">Clique aqui</a> para baixar o seu e-book grátis
-          </b>
-        </div>
+      <div class="col-auto button-footer facebook-div-comentario">
+        <div class="fb-comments facebook-comentarios" data-href="https://www.facebook.com/suavidamaisfacil/como-economizar-tempo-e-dinheiro-com-seu-automovel.html" data-mobile="true" data-width="100%" data-colorscheme="dark" data-numposts="10"></div>
       </div>
-
     </section>
   </div>
 </body>

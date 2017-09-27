@@ -1,7 +1,5 @@
 <?php ?>
 
-<!-- Essa index é aberta apenas no primeiro acesso, ela abre uma janela modal.
-     A navegação pelos links internos utiliza outra página, index2.php, que não tem a modal  -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -54,7 +52,7 @@
 <body>
   <div id="sidebarFixo">
     <div class="div-logo">
-      <a href="index-2.php">
+      <a href="index.php">
         <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
       </a>
       <p class="sidebar-text" id="descricao" >Facilite ainda mais a sua vida!<br>
@@ -248,7 +246,7 @@
         <h3>Gostou das nossas dicas?</h1>
         <h5>Baixe agora um e-book com muito mais novidades!</h1>
         </div>
-        <form id="form-footer" method="POST" action="insert-footer.php">
+        <form id="form-footer" method="POST" action="insert.php">
           <input type="hidden" name="id_leads" value="" />
           <div class="form-row align-items-center">
             <div class="alert alert-danger alert-footer" role="alert"  id="alert-obrigatorio-footer" hidden="true">
@@ -265,11 +263,11 @@
             </div>
             <div class="col-sm-5 input-footer">
               <label class="sr-only" for="inlineFormInputName">Name</label>
-              <input type="text" class="form-control mb-2 mb-sm-0" id="nome-footer" name="nome-footer" placeholder="Nome completo">
+              <input type="text" class="form-control mb-2 mb-sm-0" id="nome-footer" name="nome" placeholder="Nome completo">
             </div>
             <div class="col-sm-5 input-footer">
               <label class="sr-only" for="inlineFormInputName">Name</label>
-              <input type="text" class="form-control mb-2 mb-sm-0" id="email-footer" name="email-footer" placeholder="e-mail">
+              <input type="text" class="form-control mb-2 mb-sm-0" id="email-footer" name="email" placeholder="e-mail">
             </div>
             <div class="col-auto button-footer">
               <button type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
@@ -284,7 +282,7 @@
 
     <!-- modal -->
     <div class="modal fade" id="modalCadastro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <form id="form-cadastro-modal" method="POST" action="insert-modal.php" >
+      <form id="form-cadastro-modal" action="insert.php" >
         <div class="vertical-alignment-helper">
           <div class="modal-dialog vertical-align-center">
             <div class="modal-content">
@@ -310,10 +308,6 @@
                 <div class="alert alert-danger" role="alert"  id="alert-email-invalido-modal" hidden="true">
                   <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
                   <span class="sr-only"></span> Endereço de e-mail inválido.
-                </div>
-                <div class="alert alert-danger" role="alert"  id="alert-nome-completo-modal" hidden="true">
-                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-                  <span class="sr-only"></span> Favor informar nome completo válido.
                 </div>
               </div>
               <div class="modal-footer">

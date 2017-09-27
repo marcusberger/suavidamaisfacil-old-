@@ -12,7 +12,27 @@
   <script src="js/generico.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="25 bares e restaurantes pet friendly">
   <link rel="icon" href="/favicon.ico" type="img/favicon.ico">
+
+  <!-- facebook commentários-->
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=245558825499694";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- facebook -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
   <!--Analytics-->
   <script>
@@ -30,13 +50,14 @@
 <body>
   <div id="sidebarFixo">
     <div class="div-logo">
-      <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
+      <a href="index-2.php">
+        <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
+      </a>
       <p class="sidebar-text" id="descricao" >Facilite ainda mais a sua vida!<br>
-        <b>Baixe o nosso e-book grátis com dicas surpreendentes.</b>
+        <b>Baixe o nosso e-book grátis com 25 dicas de bares e restaurantes pet friendly.</b>
       </p>
 
-      <!-- Incluir aqui o PHP, cadastrar nome e e-mail-->
-      <form id="form-side-bar" method="POST" action="insert.php">
+      <form id="form-side-bar" method="POST" action="25-bares-e-restaurantes-pet-friendly.php">
         <input type="hidden" name="id_leads" value="" />
         <div class="alert alert-danger" role="alert"  id="alert-obrigatorio" hidden="true">
           <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
@@ -45,6 +66,10 @@
         <div class="alert alert-danger" role="alert"  id="alert-email-invalido" hidden="true">
           <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
           <span class="sr-only"></span> Endereço de e-mail inválido.
+        </div>
+        <div class="alert alert-danger" role="alert"  id="alert-nome-completo" hidden="true">
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <span class="sr-only"></span> Favor informar nome completo válido.
         </div>
         <div class="form-group">
           <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome completo">
@@ -57,15 +82,12 @@
         </div>
       </form>
     </div>
+  </div>
 
-      <!-- <table>
-        <tr id="logo-facebook">
-          <td><img src="img/icon-facebook.png" class="img-responsive"></td>
-          <td>Curta no facebook</td>
-        </tr>
-      </table> -->
-
-    </div>
+  <div class="div-logo div-mobile" >
+    <a href="index-2.php">
+      <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black_Mobile.png" class="img-responsive">
+    </a>
   </div>
 
   <div id="conteudo">
@@ -89,19 +111,16 @@
             <br>
             <br>
           </p>
-          <button id="btnREAD" name="botao"><a href="index.php">Voltar</a></button>
-          <div id="divBtnREAD" style="background-color: #ff6000">
-          </div>
+          <div class="fb-like" data-href="https://www.facebook.com/suavidamaisfacil/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
         </figcaption>
       </figure>
 
-      <!-- Incluir aqui o PHP, cadastrar nome e e-mail-->
       <div class="form-row footer">
         <div class="footer-text">
-          <h3>Gostou das nossas dicas?</h1>
-          <h5>Receba novidades e informações preenchendo os campos abaixo</h1>
+          <h3>Gostou?</h3>
+          <h5>Preencha os campos abaixo e receba agora mesmo um e-book grátis com 25 dicas de bares e restaurantes pet friendly!</h5>
         </div>
-        <form id="form-footer" method="POST" action="25-bares-e-restaurantes-pet-friendly.php">
+        <form id="form-footer" method="POST" action="25-bares-e-restaurantes-pet-friendly-footer.php">
           <input type="hidden" name="id_leads" value="" />
           <div class="form-row align-items-center">
             <div class="alert alert-danger alert-footer" role="alert"  id="alert-obrigatorio-footer" hidden="true">
@@ -112,21 +131,27 @@
               <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
               <span class="sr-only"></span> Endereço de e-mail inválido.
             </div>
-            <div class="col-sm-5 input-footer">
-              <label class="sr-only" for="inlineFormInputName">Name</label>
-              <input type="text" class="form-control mb-2 mb-sm-0" id="nome-footer" name="nome" placeholder="Nome completo">
+            <div class="alert alert-danger" role="alert"  id="alert-nome-completo-footer" hidden="true">
+              <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+              <span class="sr-only"></span> Favor informar nome completo válido.
             </div>
             <div class="col-sm-5 input-footer">
               <label class="sr-only" for="inlineFormInputName">Name</label>
-              <input type="text" class="form-control mb-2 mb-sm-0" id="email-footer" name="email" placeholder="e-mail">
+              <input type="text" class="form-control mb-2 mb-sm-0" id="nome-footer" name="nome-footer" placeholder="Nome completo">
+            </div>
+            <div class="col-sm-5 input-footer">
+              <label class="sr-only" for="inlineFormInputName">Name</label>
+              <input type="text" class="form-control mb-2 mb-sm-0" id="email-footer" name="email-footer" placeholder="e-mail">
             </div>
             <div class="col-auto button-footer">
               <button type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
             </div>
+            <div class="col-auto button-footer facebook-div-comentario">
+              <div class="fb-comments facebook-comentarios" data-href="https://www.facebook.com/suavidamaisfacil/25-bares-e-restaurantes-pet-friendly.html" data-mobile="true" data-width="100%" data-colorscheme="dark" data-numposts="10"></div>
+            </div>
           </div>
         </form>
       </div>
-
     </section>
   </div>
 </body>

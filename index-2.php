@@ -1,7 +1,5 @@
 <?php ?>
 
-<!-- Essa index é aberta apenas no primeiro acesso, ela abre uma janela modal.
-     A navegação pelos links internos utiliza outra página, index2.php, que não tem a modal  -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -16,7 +14,6 @@
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="js/validacao.js"></script>
   <script src="js/generico.js"></script>
-  <script src="js/index.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Life-hacking dicas blog">
   <meta content="Sua vida mais fácil">
@@ -48,7 +45,9 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-106963166-1', 'auto');
-  ga('send', 'pageview');</script>
+  ga('send', 'pageview');
+
+</script>
 
 </head>
 <body>
@@ -281,49 +280,7 @@
         </form>
       </section>
     </div>
-
-    <!-- modal -->
-    <div class="modal fade" id="modalCadastro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <form id="form-cadastro-modal" method="POST" action="insert-modal.php" >
-        <div class="vertical-alignment-helper">
-          <div class="modal-dialog vertical-align-center">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">
-                  <span aria-hidden="true">&times;</span>
-                  <span class="sr-only">Close</span>
-                </button>
-                <h4 class="modal-title" id="myModalLabel">Inscreva-se e receba conteúdos exlcusivos</h4>
-              </div>
-              <div class="modal-body">
-                <div class="form-group input-group input-grande">
-                  <label>Preencha os campos abaixo e faça o download do nosso e-book grátis com dicas surpreendentes</label>
-                  <input type="text" class="form-control" id="nome-modal" name="nome-modal" maxlength="254" placeholder="Digite o nome completo">
-                </div>
-                <div class="form-group input-group input-grande">
-                  <input type="text" class="form-control" id="email-modal" name="email-modal" maxlength="254" placeholder="Digite o e-mail">
-                </div>
-                <div class="alert alert-danger" role="alert"  id="alert-obrigatorio-modal" hidden="true">
-                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-                  <span class="sr-only"></span> Campo obrigatório.
-                </div>
-                <div class="alert alert-danger" role="alert"  id="alert-email-invalido-modal" hidden="true">
-                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-                  <span class="sr-only"></span> Endereço de e-mail inválido.
-                </div>
-                <div class="alert alert-danger" role="alert"  id="alert-nome-completo-modal" hidden="true">
-                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-                  <span class="sr-only"></span> Favor informar nome completo válido.
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button id="btn-submit-modal" type="submit" class="btn btn-primary btn-modal-salvar"> Quero meu e-book grátis </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
   </div>
+
 </body>
 </html>

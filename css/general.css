@@ -1,9 +1,66 @@
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 530px) {
+  #sidebarFixo {
+    width: 0;
+    padding: 0;
+  }
+  #conteudo {
+    width: 100%;
+  }
+
+  #post {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 531px) {
+
+  #post-container {
+    max-width: 650px;
+  }
+
+  #conteudo{
+    width:70%;
+  }
+
+  #post{
+    width: 80%;
+  }
+
+  .div-mobile {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+
+  .div-mobile-home {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+
+}
+
+.div-mobile {
+  margin: auto;
+  width: 50%;
+}
+
+.div-mobile-home {
+  margin: auto;
+  width: 70%;
+}
+
+.conteudo-link {
+  color: inherit;
+}
+
 #post-container {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   margin-top: 35px;
-  max-width: 650px;
 }
 
 #caption {
@@ -12,7 +69,8 @@
 }
 
 #post-body {
-  font-size: 14px;
+  font-size: 15px;
+  font-family: "Roboto";
 }
 
 .separador {
@@ -23,7 +81,6 @@
 
 #conteudo{
   margin:0 auto;
-  width:70%;
   height:100%;
   display: inline;
   float: right;
@@ -31,7 +88,6 @@
 
 #post{
   height: 10%;
-  width: 80%;
 
 }
 
@@ -80,6 +136,7 @@
 .footer-text {
   margin-left: 15px;
   margin-bottom: 15px;
+  max-width: 600px;
 }
 
 .borda-vermelha {
@@ -100,4 +157,24 @@
 
 .button-voltar {
   margin-top: 50px;
+}
+
+.download-top {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.facebook-side-bar {
+  margin: auto;
+  width: 80%;
+}
+
+.facebook-comentario {
+  margin-top: 30px;
+}
+
+.facebook-div-comentario {
+  max-width: 630px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
