@@ -13,7 +13,6 @@ $(document).ready(function() {
     temNome = validarCampoVazio("#nome", "#alert-obrigatorio");
     temEmail = validarCampoVazio("#email", "#alert-obrigatorio");
     if (temEmail && temNome) {
-      isValid = true;
       isValid = validaEmail("#email", "#alert-email-invalido");
       // if (isValid) {
       //   isValid = validaNome("#nome", "#alert-nome-completo");
@@ -35,11 +34,10 @@ $(document).ready(function() {
     temNome = validarCampoVazio("#nome-footer", "#alert-obrigatorio-footer");
     temEmail = validarCampoVazio("#email-footer", "#alert-obrigatorio-footer");
     if (temEmail && temNome) {
-      isValid = true;
       isValid = validaEmail("#email-footer", "#alert-email-invalido-footer");
-      // if (isValid) {
-      //   isValid = validaNome("#nome-footer", "#alert-nome-completo-footer");
-      // }
+        // if (isValid) {
+        //     isValid = validaNome("#nome-footer", "#alert-nome-completo-footer");
+        // }
     }
     return isValid
   })
@@ -57,11 +55,11 @@ $(document).ready(function() {
     temNome = validarCampoVazio("#nome-modal", "#alert-obrigatorio-modal");
     temEmail = validarCampoVazio("#email-modal", "#alert-obrigatorio-modal");
     if (temEmail && temNome) {
-      isValid = true;
       isValid = validaEmail("#email-modal", "#alert-email-invalido-modal");
-      // if (isValid) {
-      //   isValid = validaNome("#nome-footer", "#alert-nome-completo-modal");
-      // }
+        // if (isValid) {
+        //     isValid = validaNome("#nome-modal", "#alert-nome-completo-modal");
+        // }
+
     }
     return isValid
   })

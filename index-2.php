@@ -96,18 +96,19 @@
     <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black_Mobile.png" class="img-responsive">
   </div>
 
-  <!-- post 1 -->
+  <!-- post 7 -->
   <div id="conteudo">
     <section class="container" id="post">
-      <a class="conteudo-link" href="3-apps-que-vao-mudar-a-sua-vida-para-melhor.html">
+      <a class="conteudo-link" href="descubra-o-seu-perfil-de-dono-de-cao.html">
         <figure id="post-container" class="jumbotron post-responsive" >
-          <img id="img" class="img-responsive" src="img/3-apps-que-vao-mudar-a-sua-vida.jpeg">
+          <img id="img" class="img-responsive" src="img/descubra-o-seu-perfil-de-dono-de-cao.jpg">
           <div class="separador">
           </div>
-          <figcaption class="caption" id="caption">
-            <h3 data-toggle="collapse" data-target="#post1">3 Apps que vão mudar a sua vida!</h3>
-            <p id="post-body" >Chega de tentar fingir que o celular não é uma extensão do nosso corpo.
-            Ao invés de lutar contra isso é hora de aproveitar o que eles...
+          <figcaption class='caption' id="caption">
+            <h3 data-toggle="collapse" data-target="#post1">Quiz - Descubra o seu perfil de dono de cão</h3>
+            <p id="post-body" >
+              Em algum momento, nós vamos pensar sobre a personalidade ou as características que o nosso pet tem,
+              seja ele bagunceiro, teimoso, chato, brincalhão ou preguiçoso. Além disso...
             </p>
           </figcaption>
         </figure>
@@ -115,20 +116,62 @@
     </section>
   </div>
 
-  <!-- post 2 -->
+  <!-- post 6 -->
   <div id="conteudo">
     <section class="container" id="post">
-      <a class="conteudo-link" href="15-mitos-e-verdades-sobre-a-bateria-do-seu-celular.html">
+      <a class="conteudo-link" href="corretor-como-vender-melhor.html">
         <figure id="post-container" class="jumbotron post-responsive" >
-          <img id="img" class="img-responsive" src="img/15-mitos-e-verdades-sobre-a-bateria-do-seu-celular.jpeg">
+          <img id="img" class="img-responsive" src="img/perder-cliente-concorrente.jpg">
           <div class="separador">
           </div>
           <figcaption class='caption' id="caption">
-            <h3 data-toggle="collapse" data-target="#post1">15 verdades e mitos sobre a bateria do seu celular</h3>
+            <h3 data-toggle="collapse" data-target="#post1">Corretor: como vender melhor</h3>
             <p id="post-body" >
-              Hoje em dia a maioria das pessoas são companheiras inseparáveis de seus celulares,
-              mas você sabe tudo mesmo sobre seu fiel companheiro?
-              Claro que nem todo mundo sabe que todas as...
+              Foi-se o tempo onde uma carteira de clientes era algo simples de manter. Onde o
+              relacionamento entre vendedor e cliente era algo duradouro.
+            </p>
+          </figcaption>
+        </figure>
+      </a>
+    </section>
+  </div>
+
+  <!-- post 5 -->
+  <div id="conteudo">
+    <section class="container" id="post">
+      <a class="conteudo-link" href="como-economizar-tempo-e-dinheiro-com-seu-automovel.html">
+        <figure id="post-container" class="jumbotron post-responsive" >
+          <img id="img" class="img-responsive" src="img/os-5-melhores-aplicativos-para-gestao-de-gastos-do-seu-carro.jpeg">
+          <div class="separador">
+          </div>
+          <figcaption class='caption' id="caption">
+            <h3 data-toggle="collapse" data-target="#post1">Como economizar tempo e dinheiro com o seu automovel</h3>
+            <p id="post-body" >
+              Os tempos estão mudando e muita coisa que antes era fato, hoje não passa de uma simples lembrança,
+              isso é um fato! Mas uma coisa que sem dúvida ainda é verdade, é que o brasileiro não deixou de ser apaixonado por carro!
+              Segundo o IBGE...
+            </p>
+          </figcaption>
+        </figure>
+      </a>
+    </section>
+  </div>
+
+  <!-- post 4 -->
+  <div id="conteudo">
+    <section class="container" id="post">
+      <a class="conteudo-link" href="a-check-list-perfeita-para-fazer-uma-road-trip-sem-stress.html">
+        <figure id="post-container" class="jumbotron post-responsive" >
+          <img id="img" class="img-responsive" src="img/a-check-list-perfeita-para-fazer-uma-road-trip-sem-stress.jpg">
+          <div class="separador">
+          </div>
+          <figcaption class='caption' id="caption">
+            <h3 data-toggle="collapse" data-target="#post1">A check-list perfeita para fazer uma road trip sem stress</h3>
+            <p id="post-body" >
+              E aquele dia tão desejado ta chegando? Você tem mesmo certeza que ta tudo certo?
+              Ainda não sabe do que eu estou falando, não é?
+              Eu to falando daquela ROAD TRIP que você tem sonhado há muito tempo. E agora, meu amigo, ela vai sair do papel.
+              Aqui vão algumas dicas para você se planejar melhor.
             </p>
           </figcaption>
         </figure>
@@ -157,62 +200,20 @@
     </section>
   </div>
 
-  <!-- post 4 -->
-    <div id="conteudo">
-      <section class="container" id="post">
-        <a class="conteudo-link" href="a-check-list-perfeita-para-fazer-uma-road-trip-sem-stress.html">
-          <figure id="post-container" class="jumbotron post-responsive" >
-            <img id="img" class="img-responsive" src="img/a-check-list-perfeita-para-fazer-uma-road-trip-sem-stress.jpg">
-            <div class="separador">
-            </div>
-            <figcaption class='caption' id="caption">
-              <h3 data-toggle="collapse" data-target="#post1">A check-list perfeita para fazer uma road trip sem stress</h3>
-              <p id="post-body" >
-                E aquele dia tão desejado ta chegando? Você tem mesmo certeza que ta tudo certo?
-                Ainda não sabe do que eu estou falando, não é?
-                Eu to falando daquela ROAD TRIP que você tem sonhado há muito tempo. E agora, meu amigo, ela vai sair do papel.
-                Aqui vão algumas dicas para você se planejar melhor.
-              </p>
-            </figcaption>
-          </figure>
-        </a>
-      </section>
-    </div>
-
-  <!-- post 5 -->
-    <div id="conteudo">
-      <section class="container" id="post">
-        <a class="conteudo-link" href="como-economizar-tempo-e-dinheiro-com-seu-automovel.html">
-          <figure id="post-container" class="jumbotron post-responsive" >
-            <img id="img" class="img-responsive" src="img/os-5-melhores-aplicativos-para-gestao-de-gastos-do-seu-carro.jpeg">
-            <div class="separador">
-            </div>
-            <figcaption class='caption' id="caption">
-              <h3 data-toggle="collapse" data-target="#post1">Como economizar tempo e dinheiro com o seu automovel</h3>
-              <p id="post-body" >
-                Os tempos estão mudando e muita coisa que antes era fato, hoje não passa de uma simples lembrança,
-                isso é um fato! Mas uma coisa que sem dúvida ainda é verdade, é que o brasileiro não deixou de ser apaixonado por carro!
-                Segundo o IBGE...
-              </p>
-            </figcaption>
-          </figure>
-        </a>
-      </section>
-    </div>
-
-  <!-- post 6 -->
+  <!-- post 2 -->
   <div id="conteudo">
     <section class="container" id="post">
-      <a class="conteudo-link" href="corretor-como-vender-melhor.html">
+      <a class="conteudo-link" href="15-mitos-e-verdades-sobre-a-bateria-do-seu-celular.html">
         <figure id="post-container" class="jumbotron post-responsive" >
-          <img id="img" class="img-responsive" src="img/perder-cliente-concorrente.jpg">
+          <img id="img" class="img-responsive" src="img/15-mitos-e-verdades-sobre-a-bateria-do-seu-celular.jpeg">
           <div class="separador">
           </div>
           <figcaption class='caption' id="caption">
-            <h3 data-toggle="collapse" data-target="#post1">Corretor: como vender melhor</h3>
+            <h3 data-toggle="collapse" data-target="#post1">15 verdades e mitos sobre a bateria do seu celular</h3>
             <p id="post-body" >
-              Foi-se o tempo onde uma carteira de clientes era algo simples de manter. Onde o
-              relacionamento entre vendedor e cliente era algo duradouro.
+              Hoje em dia a maioria das pessoas são companheiras inseparáveis de seus celulares,
+              mas você sabe tudo mesmo sobre seu fiel companheiro?
+              Claro que nem todo mundo sabe que todas as...
             </p>
           </figcaption>
         </figure>
@@ -220,19 +221,18 @@
     </section>
   </div>
 
-  <!-- post 7 -->
+  <!-- post 1 -->
   <div id="conteudo">
     <section class="container" id="post">
-      <a class="conteudo-link" href="descubra-o-seu-perfil-de-dono-de-cao.html">
+      <a class="conteudo-link" href="3-apps-que-vao-mudar-a-sua-vida-para-melhor.html">
         <figure id="post-container" class="jumbotron post-responsive" >
-          <img id="img" class="img-responsive" src="img/descubra-o-seu-perfil-de-dono-de-cao.jpg">
+          <img id="img" class="img-responsive" src="img/3-apps-que-vao-mudar-a-sua-vida.jpeg">
           <div class="separador">
           </div>
-          <figcaption class='caption' id="caption">
-            <h3 data-toggle="collapse" data-target="#post1">Quiz - Descubra o seu perfil de dono de cão</h3>
-            <p id="post-body" >
-              Em algum momento, nós vamos pensar sobre a personalidade ou as características que o nosso pet tem,
-              seja ele bagunceiro, teimoso, chato, brincalhão ou preguiçoso. Além disso...
+          <figcaption class="caption" id="caption">
+            <h3 data-toggle="collapse" data-target="#post1">3 Apps que vão mudar a sua vida!</h3>
+            <p id="post-body" >Chega de tentar fingir que o celular não é uma extensão do nosso corpo.
+            Ao invés de lutar contra isso é hora de aproveitar o que eles...
             </p>
           </figcaption>
         </figure>
