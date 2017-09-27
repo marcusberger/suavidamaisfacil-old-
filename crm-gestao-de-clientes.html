@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Sua vida mais fácil</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="css/general.css">
+  <script src="jquery/jquery.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/validacao.js"></script>
+  <script src="js/generico.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CRM: Gestão de Clientes">
+  <link rel="icon" href="/favicon.ico" type="img/favicon.ico">
+
+  <!-- facebook commentários-->
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=245558825499694";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- facebook -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!--Analytics-->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-106963166-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head>
+<body>
+  <div id="sidebarFixo">
+    <div class="div-logo">
+      <a href="index-2.php">
+        <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
+      </a>
+      <p class="sidebar-text" id="descricao" >Facilite ainda mais a sua vida!<br>
+        <b>Baixe o nosso e-book grátis um CRM para melhorar sua relação com o cliente</b>
+      </p>
+
+      <!-- No action, definir o php que irá icluir os campos nome e email-->
+      <form id="form-side-bar" method="POST" action="crm-gestao-de-clientes.php">
+        <input type="hidden" name="id_leads" value="" />
+        <div class="alert alert-danger" role="alert"  id="alert-obrigatorio" hidden="true">
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <span class="sr-only"></span> Preencha todos os campos.
+        </div>
+        <div class="alert alert-danger" role="alert"  id="alert-email-invalido" hidden="true">
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <span class="sr-only"></span> Endereço de e-mail inválido.
+        </div>
+        <div class="alert alert-danger" role="alert"  id="alert-nome-completo" hidden="true">
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <span class="sr-only"></span> Favor informar nome completo válido.
+        </div>
+        <div class="form-group">
+          <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome completo">
+        </div>
+        <div class="form-group">
+          <input type="text" id="email" name="email" class="form-control" placeholder="e-mail">
+        </div>
+        <div class="text-center">
+          <button  type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
+        </div>
+        <!-- No value, definir o ebook ou conteúdo que será baixado via download-->
+        <input id="ebook" type="hidden" value="CRM-GESTAO-DE-CLIENTES-SUAVIDAMAISFACIL.xlsx">
+      </form>
+    </div>
+  </div>
+
+  <div class="div-logo div-mobile" >
+    <a href="index-2.php">
+      <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black_Mobile.png" class="img-responsive">
+    </a>
+  </div>
+
+  <div id="conteudo">
+    <section class="container" id="post">
+      <figure id="post-container" class="jumbotron post-responsive" >
+        <!-- Em src, definir a imagem da postagem-->
+        <img id="img" class="img-responsive" src="img/CRM-Image.jpg">
+        <div class="separador"></div>
+        <figcaption class='caption' id="caption">
+          <!-- Nome da postagem-->
+          <h3 data-toggle="collapse" data-target="#post1">CRM - Gestão de Clientes</h4>
+            <br>
+            <!-- Conteúdo da postagem, sempre usar <br><br> no final -->
+            <p id="post-body" >
+              <h4>CONHEÇA A MELHOR ESTRATÉGIA PARA GANHAR MAIS CLIENTES SEM PERDER OS QUE VOCÊ
+              JÁ TEM</h4>
+
+              Já parou para se perguntar “como ganhar mais clientes sem perder os que já tenho”? Essa é
+              uma questão que é abordada desde em reuniões semestrais de grandes multinacionais até em
+              conversas de corredor de pequenas empresas, todo mundo quem mais clientes! Para isso
+              existem diversas estratégias, algumas mais elaboradas e outras tão simples que as vezes
+              passam despercebidas, que visam resolver a questão.
+              <br><br>
+              Entre essas estratégias uma das que mais se destaca é o bom relacionamento com o cliente.
+              Quem não gosta de ser tratado com exclusividade? Quantas vezes você já optou por comprar
+              uma marca ao invés de outra simplesmente porque teve uma boa experiência com o
+              atendimento? Se nós gostamos de sermos tratados bem é claro que nossos clientes também
+              gostam.
+              <br><br>
+              E é isso que a cultura CRM promove. O CRM (Customer Relationship Management), no
+              português algo como Gerenciamento de Relacionamento com o Cliente, tem como objetivo
+              trazer um aprimoramento no atendimento pessoal do cliente fazendo com que cada um deles
+              se sintam como únicos aos olhos das empresas.
+              <br><br>
+              Existem várias ferramentas tecnológicas de CRM e cada uma delas é direcionada à uma uma
+              necessidade. Mas não pense você que é necessário um alto investimento para ter acesso a
+              essa tecnologia, existem várias que não cobram absolutamente nada para os primeiros acessos
+              e você só precisará investir algo se atingir um número de clientes cadastrados.
+              <br><br>
+              É o caso do CRM da empresa <b>AGENDOR</b>, ela disponibiliza um plano gratuito onde o usuário
+              pode cadastrar até 1.000 empresas ou contato. A ferramenta é muito prática de ser utilizada e
+              você pode cadastrar várias informações dos seus clientes.
+              <br><br>
+              Como você pode ver, existem várias ferramentas para auxiliar você a gerir melhor seus futuros
+              e atuais clientes, o pronto principal não é a tecnologia e sim você se adaptar à cultura CRM e
+              entender os maiores benefícios que ela pode trazer. Pensando em te ajudar, a equipe do Sua
+              Vida Mais Fácil fez um CRM PARA GESTAO DE CLIENTES que você pode baixar agora e já
+              começar hoje à ganhar mais clientes sem perder os que já tem!
+              <br><br>
+              Espero que esse conteúdo tenha sido útil e nos vemos nas próximas postagens!
+              <br><br>
+
+              AGENDOR - <a href="http://www.agendor.com.br/">http://www.agendor.com.br/</a>
+              <br>
+              <br>
+            </p>
+            <div class="fb-like" data-href="https://www.facebook.com/suavidamaisfacil/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+          </figcaption>
+        </figure>
+
+        <div class="form-row footer">
+          <div class="footer-text">
+            <!-- O texto de call-action. Também deve ser definido pelo responsável do conteúdo, se o conteúdo não vier com o call-action, pergunte a quem o fez-->
+            <h3>Gostou?</h3>
+            <h5>Preencha os seguintes campos e baixe agora mesmo CRM para melhorar seu relacionamento com o Cliente</h1>
+            </div>
+            <!-- Em action, definir o php-footer, que irá incluir os campos nome-footer e email-footer-->
+            <form id="form-footer" method="POST" action="crm-gestao-de-clientes-footer.php">
+              <input type="hidden" name="id_leads" value="" />
+              <div class="form-row align-items-center">
+                <div class="alert alert-danger alert-footer" role="alert"  id="alert-obrigatorio-footer" hidden="true">
+                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                  <span class="sr-only"></span> Preencha todos os campos.
+                </div>
+                <div class="alert alert-danger alert-footer" role="alert"  id="alert-email-invalido-footer" hidden="true">
+                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                  <span class="sr-only"></span> Endereço de e-mail inválido.
+                </div>
+                <div class="alert alert-danger" role="alert"  id="alert-nome-completo-footer" hidden="true">
+                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                  <span class="sr-only"></span> Favor informar nome completo válido.
+                </div>
+                <div class="col-sm-5 input-footer">
+                  <label class="sr-only" for="inlineFormInputName">Name</label>
+                  <input type="text" class="form-control mb-2 mb-sm-0" id="nome-footer" name="nome-footer" placeholder="Nome completo">
+                </div>
+                <div class="col-sm-5 input-footer">
+                  <label class="sr-only" for="inlineFormInputName">Name</label>
+                  <input type="text" class="form-control mb-2 mb-sm-0" id="email-footer" name="email-footer" placeholder="e-mail">
+                </div>
+                <div class="col-auto button-footer">
+                  <button type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
+                </div>
+                <div class="col-auto button-footer facebook-div-comentario">
+                  <!-- Em data-ref, definir informar o nome desta página, que irá ser a referência do comentário no plug-in do facebook-->
+                  <div class="fb-comments facebook-comentarios" data-href="https://www.facebook.com/suavidamaisfacil/crm-gestao-de-clientes.html" data-mobile="true" data-width="100%" data-colorscheme="dark" data-numposts="10"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </body>
+    </html>
