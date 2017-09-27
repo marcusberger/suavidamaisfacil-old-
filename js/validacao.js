@@ -35,8 +35,9 @@ $(document).ready(function() {
     temEmail = validarCampoVazio("#email-footer", "#alert-obrigatorio-footer");
     if (temEmail && temNome) {
       isValid = validaEmail("#email-footer", "#alert-email-invalido-footer");
-
-
+        if (isValid) {
+            isValid = validaNome("#nome-footer", "#alert-nome-completo");
+        }
     }
     return isValid
   })
@@ -55,7 +56,9 @@ $(document).ready(function() {
     temEmail = validarCampoVazio("#email-modal", "#alert-obrigatorio-modal");
     if (temEmail && temNome) {
       isValid = validaEmail("#email-modal", "#alert-email-invalido-modal");
-
+        if (isValid) {
+            isValid = validaNome("#nome-footer", "#alert-nome-completo");
+        }
 
     }
     return isValid
