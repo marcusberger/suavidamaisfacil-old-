@@ -57,7 +57,7 @@ $(document).ready(function() {
     if (temEmail && temNome) {
       isValid = validaEmail("#email-modal", "#alert-email-invalido-modal");
         if (isValid) {
-            isValid = validaNome("#nome-footer", "#alert-nome-completo-modal");
+            isValid = validaNome("#nome-modal", "#alert-nome-completo-modal");
         }
 
     }
