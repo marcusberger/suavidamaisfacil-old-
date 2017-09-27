@@ -3,13 +3,13 @@
 <head>
   <title>Sua vida mais fácil</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="../css/sidebar.css">
-  <link rel="stylesheet" type="text/css" href="../css/general.css">
-  <script src="../jquery/jquery.js"></script>
-  <script src="../bootstrap/js/bootstrap.min.js"></script>
-  <script src="../js/validacao.js"></script>
-  <script src="../js/generico.js"></script>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="css/general.css">
+  <script src="jquery/jquery.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/validacao.js"></script>
+  <script src="js/generico.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A check list perfeita para fazer uma road trip sem stress">
@@ -50,50 +50,32 @@
 <body>
   <div id="sidebarFixo">
     <div class="div-logo">
-      <a href="../index-2.php">
-        <img id="logo-blog" src="../img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
+      <a href="index-2.php">
+        <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
       </a>
-      <p class="sidebar-text" id="descricao" >Facilite ainda mais a sua vida!<br>
-        <b>Baixe a nossa planilha com a check-list perfeita para fazer uma road trip sem stress.</b>
-      </p>
-
-      <form id="form-side-bar" method="POST" action="a-check-list-perfeita-para-fazer-uma-road-trip-sem-stress.php">
-        <input type="hidden" name="id_leads" value="" />
-        <div class="alert alert-danger" role="alert"  id="alert-obrigatorio" hidden="true">
-          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-          <span class="sr-only"></span> Preencha todos os campos.
-        </div>
-        <div class="alert alert-danger" role="alert"  id="alert-email-invalido" hidden="true">
-          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-          <span class="sr-only"></span> Endereço de e-mail inválido.
-        </div>
-        <div class="alert alert-danger" role="alert"  id="alert-nome-completo" hidden="true">
-          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-          <span class="sr-only"></span> Favor informar nome completo válido.
-        </div>
-        <div class="form-group">
-          <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome completo">
-        </div>
-        <div class="form-group">
-          <input type="text" id="email" name="email" class="form-control" placeholder="e-mail">
-        </div>
-        <div class="text-center">
-          <button  type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
-        </div>
-      </form>
+      <div class="text-center download-top">
+        <a href="ebooks/planilhas-e-estrategias.xlsx" download="planilhas-e-estrategias.xlsx">
+          <button  type="submit" class="btn btn-primary">Download</button>
+        </a>
+      </div>
     </div>
   </div>
 
   <div class="div-logo div-mobile" >
-    <a href="../index-2.php">
-      <img id="logo-blog" src="../img/Logo_SuaVidaMaisFacil_Black_Mobile.png" class="img-responsive">
+    <a href="index-2.php">
+      <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black_Mobile.png" class="img-responsive">
     </a>
   </div>
 
   <div id="conteudo">
     <section class="container" id="post">
       <figure id="post-container" class="jumbotron post-responsive" >
-        <img id="img" class="img-responsive" src="../img/a-check-list-perfeita-para-fazer-uma-road-trip-sem-stress.jpg">
+        <div class="text-center download-top">
+          <a href="ebooks/planilhas-e-estrategias.xlsx" download="planilhas-e-estrategias.xlsx">
+            <button  type="submit" class="btn btn-primary">Download</button>
+          </a>
+        </div>
+        <img id="img" class="img-responsive" src="img/a-check-list-perfeita-para-fazer-uma-road-trip-sem-stress.jpg">
         <div class="separador"></div>
         <figcaption class='caption' id="caption">
           <h3 data-toggle="collapse" data-target="#post1">A check list perfeita para fazer uma road trip sem stress</h4>
@@ -137,43 +119,8 @@
           <div class="fb-like" data-href="https://www.facebook.com/suavidamaisfacil/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
         </figcaption>
       </figure>
-
-      <div class="form-row footer">
-        <div class="footer-text">
-          <h3>Gostou?</h3>
-          <h5>Preencha os seguintes campos e baixe agora mesmo uma planilha com a check-list perfeita para fazer uma road trip sem stress!</h5>
-        </div>
-        <form id="form-footer" method="POST" action="a-check-list-perfeita-para-fazer-uma-road-trip-sem-stress-footer.php">
-          <input type="hidden" name="id_leads" value="" />
-          <div class="form-row align-items-center">
-            <div class="alert alert-danger alert-footer" role="alert"  id="alert-obrigatorio-footer" hidden="true">
-              <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-              <span class="sr-only"></span> Preencha todos os campos.
-            </div>
-            <div class="alert alert-danger alert-footer" role="alert"  id="alert-email-invalido-footer" hidden="true">
-              <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-              <span class="sr-only"></span> Endereço de e-mail inválido.
-            </div>
-            <div class="alert alert-danger" role="alert"  id="alert-nome-completo-footer" hidden="true">
-              <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-              <span class="sr-only"></span> Favor informar nome completo válido.
-            </div>
-            <div class="col-sm-5 input-footer">
-              <label class="sr-only" for="inlineFormInputName">Name</label>
-              <input type="text" class="form-control mb-2 mb-sm-0" id="nome-footer" name="nome-footer" placeholder="Nome completo">
-            </div>
-            <div class="col-sm-5 input-footer">
-              <label class="sr-only" for="inlineFormInputName">Name</label>
-              <input type="text" class="form-control mb-2 mb-sm-0" id="email-footer" name="email-footer" placeholder="e-mail">
-            </div>
-            <div class="col-auto button-footer">
-              <button type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
-            </div>
-            <div class="col-auto button-footer facebook-div-comentario">
-              <div class="fb-comments facebook-comentarios" data-href="https://www.facebook.com/suavidamaisfacil/a-check-list-perfeita-para-fazer-uma-road-trip-sem-stress.html" data-mobile="true" data-width="100%" data-colorscheme="dark" data-numposts="10"></div>
-            </div>
-          </div>
-        </form>
+      <div class="col-auto button-footer facebook-div-comentario">
+        <div class="fb-comments facebook-comentarios" data-href="https://www.facebook.com/suavidamaisfacil/a-check-list-perfeita-para-fazer-uma-road-trip-sem-stress.html" data-mobile="true" data-width="100%" data-colorscheme="dark" data-numposts="10"></div>
       </div>
     </section>
   </div>
