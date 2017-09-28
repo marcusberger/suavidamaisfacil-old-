@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Sua vida mais fácil</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="css/general.css">
+  <script src="jquery/jquery.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/validacao.js"></script>
+  <script src="js/generico.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="15 mitos e verdades sobre a bateria do celular">
+  <link rel="icon" href="/favicon.ico" type="img/favicon.ico">
+
+  <!-- facebook commentários-->
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=245558825499694";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- facebook -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!--Analytics-->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-106963166-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head>
+<body>
+  <div id="sidebarFixo">
+    <div class="div-logo">
+      <a href="index-2.php">
+        <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black.png" class="img-responsive">
+      </a>
+      <p class="sidebar-text" id="descricao" >Facilite ainda mais a sua vida!<br>
+        <b>Preencha os seguintes campos e baixe agora mesmo a nossa apresentação e saiba qual o melhor tipo de comida para o seu cão</b>
+      </p>
+
+      <!-- No action, definir o php que irá icluir os campos nome e email-->
+      <form id="form-side-bar" method="POST" action="comida-natural-vs-industrializada.php">
+        <input type="hidden" name="id_leads" value="" />
+        <div class="alert alert-danger" role="alert"  id="alert-obrigatorio" hidden="true">
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <span class="sr-only"></span> Preencha todos os campos.
+        </div>
+        <div class="alert alert-danger" role="alert"  id="alert-email-invalido" hidden="true">
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <span class="sr-only"></span> Endereço de e-mail inválido.
+        </div>
+        <div class="alert alert-danger" role="alert"  id="alert-nome-completo" hidden="true">
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <span class="sr-only"></span> Favor informar nome completo válido.
+        </div>
+        <div class="form-group">
+          <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome completo">
+        </div>
+        <div class="form-group">
+          <input type="text" id="email" name="email" class="form-control" placeholder="e-mail">
+        </div>
+        <div class="text-center">
+          <button  type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
+        </div>
+        <!-- No value, definir o ebook ou conteúdo que será baixado via download-->
+        <input id="ebook" type="hidden" value="Comida-natural-vs-ração.pptx">
+      </form>
+    </div>
+  </div>
+
+  <div class="div-logo div-mobile" >
+    <a href="index-2.php">
+      <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black_Mobile.png" class="img-responsive">
+    </a>
+  </div>
+
+  <div id="conteudo">
+    <section class="container" id="post">
+      <figure id="post-container" class="jumbotron post-responsive" >
+        <!-- Em src, definir a imagem da postagem-->
+        <img id="img" class="img-responsive" src="img/comidanatural.png">
+        <div class="separador"></div>
+        <figcaption class='caption' id="caption">
+          <!-- Nome da postagem-->
+          <h3 data-toggle="collapse" data-target="#post1">Comida Natural vs. Industrializada, qual é melhor para o seu cão?</h4>
+            <br>
+            <!-- Conteúdo da postagem, sempre usar <br><br> no final -->
+            <p id="post-body" >
+              Parece que hoje está na moda a alimentação natural para cães, muitos donos se
+              preocupam com a qualidade alimentar de seus cães, o que gera muita duvida no
+              quesito qual tipo de dieta é mais recomendada. Enquanto alguns sugerem que a
+              melhor forma de alimentar um cachorro é oferecer alimentos industrializados,
+              outros acreditam que a dieta natural, baseada em ingredientes frescos é melhor.
+              Mas afinal, você sabe o que significa alimentação natural (AN)? Porque tem tanta
+              gente parando de dar ração? E vantagens e desvantagens de cada uma? Essas são
+              algumas das perguntas que iremos responder no nosso ebook sobre Comida
+              Natural vs. Industrializada, qual é melhor para o seu cão?
+              <br>
+              <br>
+            </p>
+            <div class="fb-like" data-href="https://www.facebook.com/suavidamaisfacil/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+          </figcaption>
+        </figure>
+
+        <div class="form-row footer">
+          <div class="footer-text">
+            <!-- O texto de call-action. Também deve ser definido pelo responsável do conteúdo, se o conteúdo não vier com o call-action, pergunte a quem o fez-->
+            <h3>Gostou?</h3>
+            <h5>Preencha os seguintes campos e baixe agora mesmo a nossa apresentação e saiba qual o melhor tipo de comida para o seu cão</h1>
+            </div>
+            <!-- Em action, definir o php-footer, que irá incluir os campos nome-footer e email-footer-->
+            <form id="form-footer" method="POST" action="comida-natural-vs-industrializada-footer.php">
+              <input type="hidden" name="id_leads" value="" />
+              <div class="form-row align-items-center">
+                <div class="alert alert-danger alert-footer" role="alert"  id="alert-obrigatorio-footer" hidden="true">
+                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                  <span class="sr-only"></span> Preencha todos os campos.
+                </div>
+                <div class="alert alert-danger alert-footer" role="alert"  id="alert-email-invalido-footer" hidden="true">
+                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                  <span class="sr-only"></span> Endereço de e-mail inválido.
+                </div>
+                <div class="alert alert-danger" role="alert"  id="alert-nome-completo-footer" hidden="true">
+                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                  <span class="sr-only"></span> Favor informar nome completo válido.
+                </div>
+                <div class="col-sm-5 input-footer">
+                  <label class="sr-only" for="inlineFormInputName">Name</label>
+                  <input type="text" class="form-control mb-2 mb-sm-0" id="nome-footer" name="nome-footer" placeholder="Nome completo">
+                </div>
+                <div class="col-sm-5 input-footer">
+                  <label class="sr-only" for="inlineFormInputName">Name</label>
+                  <input type="text" class="form-control mb-2 mb-sm-0" id="email-footer" name="email-footer" placeholder="e-mail">
+                </div>
+                <div class="col-auto button-footer">
+                  <button type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
+                </div>
+                <div class="col-auto button-footer facebook-div-comentario">
+                  <!-- Em data-ref, definir informar o nome desta página, que irá ser a referência do comentário no plug-in do facebook-->
+                  <div class="fb-comments facebook-comentarios" data-href="https://www.facebook.com/suavidamaisfacil/comida-natural-vs-industrializada.html" data-mobile="true" data-width="100%" data-colorscheme="dark" data-numposts="10"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </body>
+    </html>
