@@ -105,7 +105,7 @@
           <div class="separador">
           </div>
           <figcaption class='caption' id="caption">
-            <h3 data-toggle="collapse" data-target="#post1">Comida Natural vs. Industrializada, qual é melhor para o seu cão?</h3>
+            <h3 data-toggle="collapse" data-target="#post1">Comida Natural vs Industrializada:  qual é melhor para o seu cão?</h3>
             <p id="post-body" >
               Parece que hoje está na moda a alimentação natural para cães, muitos donos se
               preocupam com a qualidade alimentar de seus cães, o que gera muita duvida no
