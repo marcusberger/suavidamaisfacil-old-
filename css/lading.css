@@ -1,0 +1,31 @@
+h3 {
+	color: #ffffff;
+	font-size: 150%;
+}
+
+p {
+	color: #fff600;
+}
+
+.container, .container-fluid {
+ padding-right: 15px;
+ padding-left: 15px;
+ 
+}
+.row {
+ margin-bottom: 5px;
+}
+[class*="col-"], header, footer, nav, aside, section, div[role="main"] {
+ padding-top: 15px;
+ padding-bottom: 15px;
+ background-color: #ededed;
+ text-align: center;
+}
+
+#segundaLinha{
+	background-color: #ff8b00;
+}
+
+div[role="main"], nav, aside {
+ height: 20%;
+}
