@@ -80,7 +80,7 @@
         </div>
         <div class="form-group">
           <input type="text" id="email" name="email" class="form-control" placeholder="e-mail" />
-          <p>Seus dados são confidenciais e estarão seguros conosco.<p>
+          <p class="pMensagemPrivacidade">Seus dados são confidenciais e estarão seguros conosco.<p>
         </div>
         <div class="text-center">
           <button type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
@@ -347,6 +347,7 @@
                 </div>
                 <div class="form-group input-group input-grande">
                   <input type="text" class="form-control" id="email-modal" name="email-modal" maxlength="254" placeholder="Digite o e-mail">
+                  <p class="pMensagemPrivacidade">Seus dados são confidenciais e estarão seguros conosco.<p>
                 </div>
                 <div class="alert alert-danger" role="alert"  id="alert-obrigatorio-modal" hidden="true">
                   <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
