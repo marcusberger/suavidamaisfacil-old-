@@ -1,9 +1,17 @@
+body{
+	width: 100%;
+	
+
+}
 #row1{
 	background-color: #ededed;
 	}
 
 #logo{
 	margin:0 auto; 
+	height: 40px;
+	margin-top: 3px;
+	margin-bottom: 3px;
 }
 
 #row2{
@@ -12,18 +20,20 @@
 
 #rowBranco{
 	background-color: #ffffff;
+
 }
 #image{
 	padding-left: 50%;	
 	display: block;
+	height: 390px;
 	} 
 
 form{
-	float: center;
+	width: 60%;
+	float: left;
 	margin:0 auto;
-	
-
 }
+
 
 h3{
 	font-family: Roboto;
@@ -37,8 +47,59 @@ p{
 	font-family: Roboto;
 	font-weight: bold;
 }
+#panel{
+	width: 60%;
+	background-color: #f2f2f2;
+	height: 20%;
+
+}
+#pForm{
+	color: #ffffff;
+	font-family: Roboto;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+#panel-heading{
+	background-color: #1769ff;
+}
 
 
 #row4{
 	background-color: #ededed;
 }
+
+#button{
+	background-color: #ff8b00;
+	border: none;
+}
+input{
+	
+	border-color: #cccccc;
+}
+
+@media only screen and (max-width: 700px) {
+
+  #image {
+  	padding-left: 5%;	
+	display: block;
+    
+  }
+
+  #row2{
+  	background-color: #ff8b00;
+  	position: block;
+  	font-size: 15px;
+
+  }
+
+#panel{
+	width: 100%;
+	float: center;
+	margin:0 auto;
+	
+	}
+
+
+  
