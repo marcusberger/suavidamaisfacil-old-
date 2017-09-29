@@ -80,6 +80,7 @@
         </div>
         <div class="form-group">
           <input type="text" id="email" name="email" class="form-control" placeholder="e-mail" />
+          <p>Seus dados são confidenciais e estarão seguros conosco.<p>
         </div>
         <div class="text-center">
           <button type="submit" class="btn btn-primary">Quero meu e-book grátis</button>
